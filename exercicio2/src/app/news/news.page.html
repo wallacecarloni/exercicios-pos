@@ -1,0 +1,20 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-title>news</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+
+  <ion-card class="welcome-card">
+    <img [src]="caminho">
+    <ion-card-header>
+      <ion-card-subtitle> {{ texto.titulo }}</ion-card-subtitle>
+      <ion-card-title>{{ texto.subtitulo }}</ion-card-title>
+    </ion-card-header>
+    <ion-card-content>
+      <p>{{ texto.texto }}</p>
+    </ion-card-content>
+  </ion-card>
+
+</ion-content>
